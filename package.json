@@ -1,14 +1,13 @@
 {
-  "name": "scratch-blocks",
-  "version": "0.1.0-prerelease.1585323236",
-  "description": "Scratch Blocks is a library for building creative computing interfaces.",
-  "author": "Massachusetts Institute of Technology",
+  "name": "glitchyscratch-blocks",
+  "version": "1.0.0-rc.0",
+  "description": "Glitchy Scratch Blocks is a library for building creative computing interfaces based off scratch-blocks and Blockly.",
+  "author": "Glitchy Scratch Contributors",
   "license": "Apache-2.0",
-  "homepage": "https://github.com/LLK/scratch-blocks#readme",
+  "homepage": "https://github.com/Glitchy-Scratch/blocks#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/LLK/scratch-blocks.git",
-    "sha": "769fb6a35b8bb1bfe92d42d21969ef9d450b4e6d"
+    "url": "git+https://github.com/Glitchy-Scratch/blocks.git"
   },
   "main": "./dist/vertical.js",
   "browser": "./shim/vertical.js",
