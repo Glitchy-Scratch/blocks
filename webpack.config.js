@@ -6,6 +6,7 @@ gracefulFs.gracefulify(realFs);
 var CopyWebpackPlugin = require('copy-webpack-plugin');
 var path = require('path');
 var UglifyJsPlugin = require('uglifyjs-webpack-plugin');
+var TerserWebpackPlugin = require('terser-webpack-plugin');
 
 module.exports = [{
   mode: process.env.NODE_ENV === 'production' ? 'production' : 'development',
@@ -38,12 +39,9 @@ module.exports = [{
     filename: '[name].js'
   },
   optimization: {
+    minimize: true,
     minimizer: [
-      new UglifyJsPlugin({
-        uglifyOptions: {
-          mangle: false
-        }
-      })
+      new TerserWebpackPlugin()
     ]
   },
   plugins: []

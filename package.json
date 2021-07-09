@@ -25,7 +25,8 @@
   },
   "dependencies": {
     "exports-loader": "0.6.3",
-    "imports-loader": "0.6.5"
+    "imports-loader": "0.6.5",
+    "terser-webpack-plugin": "^4.2.3"
   },
   "devDependencies": {
     "async": "2.6.0",
@@ -33,6 +34,7 @@
     "copy-webpack-plugin": "4.5.1",
     "eslint": "^4.16",
     "event-stream": "3.3.4",
+    "glitchyscratch-i18n": "^4.0.0",
     "glob": "7.1.2",
     "google-closure-compiler": "20180402.0.0",
     "google-closure-library": "20190301.0.0",
