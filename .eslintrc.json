@@ -2,6 +2,8 @@
     "rules": {
         "curly": ["error", "multi-line"],
         "eol-last": ["error"],
+        "no-prototype-builtins": ["off"],
+        "no-self-assign": ["off"],
         "indent": [
             "error", 
             2,
