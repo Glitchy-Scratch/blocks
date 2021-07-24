@@ -5,7 +5,6 @@ gracefulFs.gracefulify(realFs);
 
 var CopyWebpackPlugin = require('copy-webpack-plugin');
 var path = require('path');
-var UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 var TerserWebpackPlugin = require('terser-webpack-plugin');
 
 module.exports = [{
