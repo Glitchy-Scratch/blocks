@@ -1,6 +1,6 @@
 {
   "name": "glitchyscratch-blocks",
-  "version": "1.0.0-rc.1",
+  "version": "1.0.0-rc.2",
   "description": "Glitchy Scratch Blocks is a library for building creative computing interfaces based off scratch-blocks and Blockly.",
   "author": "Glitchy Scratch Contributors",
   "license": "Apache-2.0",
