@@ -35,7 +35,7 @@
     "event-stream": "4.0.1",
     "glitchyscratch-i18n": "^4.0.0",
     "glob": "7.2.0",
-    "google-closure-compiler": "20180402.0.0",
+    "google-closure-compiler": "20210907.0.0",
     "google-closure-library": "20190301.0.0",
     "graceful-fs": "4.2.8",
     "json": "10.0.0",
