@@ -31,7 +31,7 @@
     "async": "3.2.2",
     "chromedriver": "^93.0.1",
     "copy-webpack-plugin": "4.5.1",
-    "eslint": "^7.32",
+    "eslint": "^8.1",
     "event-stream": "4.0.1",
     "glitchyscratch-i18n": "^4.0.0",
     "glob": "7.2.0",
