@@ -28,7 +28,7 @@
     "imports-loader": "0.6.5"
   },
   "devDependencies": {
-    "async": "3.2.2",
+    "async": "3.2.3",
     "chromedriver": "^95.0.0",
     "copy-webpack-plugin": "4.5.1",
     "eslint": "^8.5",
